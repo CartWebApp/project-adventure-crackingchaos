@@ -17,7 +17,10 @@ html, body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url(images/background.png);
+    overflow-x: hidden;
+    background-image: url(/images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
