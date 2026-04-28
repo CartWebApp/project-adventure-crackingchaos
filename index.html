@@ -11,6 +11,10 @@
     <link rel="icon" href="#">
 </head>
 <body id="game-Scene">
+
+<button onclick="back()" id="Rei" class="characters"> 
+    <img src="/images/rei-female.png">
+</button>
      
 <div id="app"> <!--Container for whole game-->
     
@@ -71,7 +75,7 @@
                     <img src="images/jessie-male.png" alt="jessie-male">
                 </button>
 
-                <button onclick="goTo('game-Screen')" id="Jesus" class="characters"> 
+                <button onclick="goTo('game-Screen')" id="Jesus-juanita" class="characters"> 
                     <img src="images/jesus.png" alt="jessie-male">
                 </button>
 
@@ -83,9 +87,9 @@
 
     <div id="character-Select-female" class="screen">
         <section id="profile-Section">
-            <div id="profile-Picture-Container">
+            <button id="profile-Picture-Container">
                 <img id="profile-Picture" src="#">
-            </div>
+            </button>
             <h1>Choose Your Start</h1>
         </section>
             <section id="character-Choice">
@@ -93,21 +97,25 @@
                     <img src="/images/jessie-female.png">
                 </button>
 
-                <button onclick="goTo('game-Screen')" id="Juanita" class="characters"> 
+                <button onclick="goTo('game-Screen')" id="Jesus-juanita" class="characters"> 
                     <img src="/images/juanita.png">
                 </button>
 
                 <button onclick="goTo('game-Screen')" id="Rei" class="characters"> 
                     <img src="/images/rei-female.png">
                 </button>
+
             </section>
     </div>
     
     <!--End of character select-->
 
     <!--Start of Main Game Screen-->
-    <div id="game-Screen"> 
-
+    <div id="game-Screen" class="screen"> 
+        <div class="background" id="background"><img src="" alt="story background"></div>
+        <button id="choice-1"></button>
+        <button id="choice-2"></button>
+        <button id="choice-3"></button>
     </div>
      <!--End of Main Game Screen-->
 </div>

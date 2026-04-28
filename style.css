@@ -94,7 +94,6 @@ img [src="/images/jessie-female.png"]{
 }
 
 
-#Rei > img {
-    height: 20vh;
-    width: 15vw;
+.characters > img {
+    height: 50vh;
 }
