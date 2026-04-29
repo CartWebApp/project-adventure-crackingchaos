@@ -12,11 +12,15 @@
 </head>
 <body id="game-Scene">
 
-<button onclick="back()" id="Rei" class="characters"> 
-    <img src="/images/rei-female.png">
-</button>
-     
-<div id="app"> <!--Container for whole game-->
+     <!--Container for whole game-->
+<div id="app">
+    
+    <section id="back-Btn-Container">
+        <button onclick="back()" id="back" class="back"> 
+            <img src="/images/back-arrow.png">
+        </button>
+    </section>
+ 
     
     <!--Main Menu Screen-->
        <div id="menu-Screen" class="screen active">
@@ -45,7 +49,7 @@
     <div id="gender-Screen" class="screen">
         <section id="profile-Section">
             <div id="profile-Picture-Container">
-                <img id="profile-Picture" src="#">
+                <img id="profile-Picture" src="images/pfp.png">
             </div>
             <h1>Choose Your Start</h1>
         </section>
@@ -66,7 +70,7 @@
     <div id="character-Select-male" class="screen">
         <section id="profile-Section">
             <div id="profile-Picture-Container">
-                <img id="profile-Picture" src="#">
+                <img id="profile-Picture" src="images/pfp.png">
             </div>
             <h1>Choose Your Start</h1>
         </section>
@@ -88,7 +92,7 @@
     <div id="character-Select-female" class="screen">
         <section id="profile-Section">
             <button id="profile-Picture-Container">
-                <img id="profile-Picture" src="#">
+                <img id="profile-Picture" src="images/pfp.png">
             </button>
             <h1>Choose Your Start</h1>
         </section>
@@ -113,9 +117,12 @@
     <!--Start of Main Game Screen-->
     <div id="game-Screen" class="screen"> 
         <div class="background" id="background"><img src="" alt="story background"></div>
-        <button id="choice-1"></button>
-        <button id="choice-2"></button>
-        <button id="choice-3"></button>
+        <section id="current-text" class="text-cont"></section>
+        <section id="choice-Container">
+            <button id="choice-1" class="choices"></button>
+            <button id="choice-2" class="choices"></button>
+            <button id="choice-3" class="choices"></button>
+        </section>
     </div>
      <!--End of Main Game Screen-->
 </div>
