@@ -22,6 +22,7 @@ const logOverlay = document.getElementById("logs-overlay");
 const logContainer = document.getElementById("log-container");
 const logBtn = document.getElementById("logs");
 const closeLogs = document.getElementById("closer");
+const sceneCharacter = document.getElementById("scene-character");
 window.gameStats = {fame: 0, wealth: 0, heat: 0};
 const choices = [choice1, choice2, choice3];
 let position = ["menu-Screen",];
@@ -146,16 +147,31 @@ function characterCheck(){
         case "jessie":
         case "jessie-female":
             sceneCreation(story.jessieStart);
+            if(gender){
+                sceneCharacter.src = "images/jessie-female.png";
+            }else{
+
+            }
         break;
 
         case "rei":
         case "rei-female":
             sceneCreation(story.reiStart);
+            if(gender){
+                sceneCharacter.src = "images/rei-female.png";
+            }else{
+                sceneCharacter.src = "images/DNA.png";
+            }
         break;
 
         case "alex":
         case "alex-female":
             sceneCreation(story.alexStart);
+            if(gender){
+                sceneCharacter.src = "images/alex-female.png";
+            }else{
+                sceneCharacter.src = "images/alex-male.png";
+            }
         break;
 
         default:

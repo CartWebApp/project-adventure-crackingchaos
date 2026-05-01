@@ -121,15 +121,18 @@ img[src="/images/jessie-female.png"]{
     border:none;
     margin-left:2vw;
     height:3vh;
+    cursor: pointer;
 }
 
 #back > img{
     transform: rotateY(180deg);
     height:5vh;
+    cursor: pointer;
 }
 
 .characters > img {
     height: 50vh;
+    cursor: pointer;
 }
 
 #choice-Container {
@@ -146,6 +149,7 @@ img[src="/images/jessie-female.png"]{
     border:none;
     font-family: "Orbitron", sans-serif;
     font-style: normal;
+    cursor: pointer;
 }
 
 #scene {
@@ -186,10 +190,12 @@ img[src="/images/jessie-female.png"]{
     justify-self: flex-end;
     margin-right:2vw;
     height:3vh;
+    cursor: pointer;
 }
 
 .burger>img{
     height:3vh;
+    cursor: pointer;
 }
 
 #back-Btn-Container{
@@ -199,6 +205,7 @@ img[src="/images/jessie-female.png"]{
     width:100%;
     margin-top:2vh;
     height:5vh;
+    cursor: pointer;
 }
 
 .burger-cont{
@@ -219,6 +226,7 @@ img[src="/images/jessie-female.png"]{
     height: 10vh;
     font-size:24px;
     border-radius:25px;
+    cursor: pointer;
 }
 
 .new{
@@ -250,9 +258,19 @@ img[src="/images/jessie-female.png"]{
     height:5vh;
     align-self:center;
     border-radius:25px;
+    cursor: pointer;
 }
 #log-container >*{
     margin-bottom:3vh;
+}
+
+.scene-korea{
+    position: absolute;
+    transform: rotateX(180deg) rotateZ(93deg);
+    height:20vh;
+    width:auto;
+    justify-self: center;
+    align-self: center;
 }
 
 .qte-root {
