@@ -12,7 +12,7 @@ export const story = {
         text: `You scoop the bag and spend the afternoon working the park near the Staples Center. You've got the pitch down, you always did. By sundown you've tripled your twenty. It's not enough to restart a real operation, but it's proof you still have the gift. You're heading back to your bench when you pass an alley and smell something familiar, sugar, citric acid, the sharp pop of carbon dioxide candy. Someone nearby is still cooking.\nYou slow your steps. This could be a connect, or a competitor.`,
         choice: ['Invesitgate the smell', 'Keep walking -- stay off the radar for now'],
         idsForChoices: ['jessieAlley', 'jessieLayLow'],
-        pictureForScene: ""
+        pictureForScene: "/scenes/alley-scene.png"
     },
 
 
@@ -20,7 +20,7 @@ export const story = {
         text: `You land a two-day shift washing dishes at a taco spot on Vermont Ave. It's humbling, but you keep your head down and pocket $180. On your second night, the owner's kid, maybe 16, slides up to you and whispers that he's heard of Purpleman's pop rocks. Says the kids at his school are obsessed and want to know if production is ever coming back. Word travels fast in this city.\nYour cover is already blown, even when you're trying to lay low.`,
         choice: ['Tell the kid you\'re done with life', 'Tell the kid to spread the word Purpleman is back soon'],
         idsForChoices: ['jessieLayLow', 'jessieAlley'],
-        pictureForScene: ""
+        pictureForScene: "/scenes/kitchen-scene.png"
 
     },
 
@@ -29,7 +29,7 @@ export const story = {
         text: `You tail the vendor six blocks into a strip mall parking lot. He meets with two others and they exchange cash for a duffel bag. You watch long enough to realize this isn't your league, not yet. But as you turn to leave, a woman locks eyes with you. She's mid-40s, sharp, with the kind of stillness that comes from years of knowing when to move and when not to. She says one thing: "You're Purpleman's, aren't you. The one that got away."\nShe walks off before you can respond. But she drops a napkin with an address.`,
         choice: ['Go to the address', 'Throw it away -- strangers with information are dangerous'],
         idsForChoices: ['jessieAlley', 'jessieLayLow'],
-        pictureForScene: ""
+        pictureForScene: "/scenes/popeys-scene.png"
     },
 
 
@@ -37,7 +37,7 @@ export const story = {
         text: `You spend a week keeping your head down. You eat cheap, sleep wherever you can, and watch the neighborhood. The heat from the raid begins to cool. The SGA's surveillance vans stop circling your old block. You feel the familiar itch, the city is still hungry for your product. And you've learned enough about laying low to know when to move again.\nYou're ready to start cooking on your own.`,
         choice: ['Start a small solo operation'],
         idsForChoices: ['soloGrind'],
-        pictureForScene: ""
+        pictureForScene: "/scenes/laylow-scene.png"
     },
 
 
@@ -45,7 +45,7 @@ export const story = {
         text: `You follow your nose into the alley. Behind a dumpster, an old fold-up table holds a single hot plate, a candy thermometer, and bags of sugar and citric acid. Nobody's here, whoever was cooking left in a hurry. Or is watching you right now.\nYou sit down, use what's left on the table, and produce a small batch of pop rocks just to prove you still can. They're good. Really good. But you're alone, underfunded, and exposed.\nYou need to restart properly.`,
         choice: ['Start a small solo operation'],
         idsForChoices: ['soloGrind'],
-        pictureForScene: ""
+        pictureForScene: "/scenes/alley-scene1.png"
     },
 
     //This is where alex story starts
@@ -118,7 +118,7 @@ export const story = {
         text: `Alone and under-resourced, you start producing, small batches, late nights, moving locations every few days to stay off the SGA's radar. The product is decent but inconsistent without the full crew. Sales trickle. It's enough to eat, barely enough to keep going. You're a one-person operation in a city that rewards scale.\nWeeks pass. Then one night, after finishing a batch of pop rocks in the back of a rented storage unit, you hear footsteps outside. You freeze. The footsteps slow. A knock on the door, three taps, measured and deliberate. Not SGA. They don't knock.`,
         choice: ['Open the door', 'Slip out the back'],
         idsForChoices: ['williamReveal', 'williamReveal'],
-        pictureForScene: ""
+        pictureForScene: "/scenes/soloGrind-scene.png"
     },
 
 
@@ -126,7 +126,7 @@ export const story = {
         text: `Standing in the doorway, or catching up to you in the alley if you tried to run, is a man you haven't thought about in years. William "Bob" Black. Your old culinary teacher. He's older, a little worn, but his eyes are the same: sharp, warm, always calculating the best way to explain something.\nHe holds up both hands. "I'm not SGA. I'm not anyone's informant. I teach 9th and 10th graders at Wadiya High now." He pauses. "And I'm broke, I'm sick, and I need money for treatment for a chronic cortisol condition that's eating me alive."\nHe steps forward. "I heard you were still out here. I know candy production. Real culinary-grade formulation. You know the market. I think you know what I'm about to propose."`,
         choice: ['Accept William\'s offer', 'Reject William\'s offer', 'Work at Sooubway instead'],
         idsForChoices: ['williamAccept', 'williamReject', 'sooubwayEnd'],
-        pictureForScene: ""
+        pictureForScene: "/scenes/wilRev-scene.png"
     },
 
 
@@ -134,7 +134,7 @@ export const story = {
         text: `You tell William no. You appreciate the honesty, but bringing in a partner, especially one with no street experience, feels like a liability. You wish him well and send him off. He nods slowly, like he expected it.\nYou go back to the grind alone. The product stays inconsistent. The money stays thin. Three weeks later, you cross paths with William at a gas station. He looks worse. You look tired. Neither of you says anything for a long moment.\nFinally, he says: "The offer still stands. But it won't for much longer."`,
         choice: ['Accept William\'s offer this time', 'Keep refusing and continue solo'],
         idsForChoices: ['williamAccept', 'grindFail'],
-        pictureForScene: ""
+        pictureForScene: "/scenes/wilRej-scene.png"
     },
 
 
@@ -142,7 +142,7 @@ export const story = {
         text: `You push on alone. The inconsistency in your batches starts costing you customers. A rival operation moves into your distribution spots. You're running out of money faster than you're making it, and the isolation is wearing you down.\nYou get a call from an unknown number. It's one of your old crew members, calling from inside. "Get help," they say. "You can't do this alone. You never could." The line goes dead.\nYou sit in the dark for a long time. Then you pull out William Black's number.`,
         choice: ['Call William'],
         idsForChoices: ['williamAccept'],
-        pictureForScene: ""
+        pictureForScene: "/scenes/grindfail-scene.png"
     },
 
     //william comes into play
@@ -150,14 +150,14 @@ export const story = {
         text: `You shake on it. William moves his sparse belongings into a corner of whatever space you're using and gets to work immediately. Within 48 hours you understand what you've been missing. He doesn't just cook, he engineers. He adjusts pH levels, controls crystallization rates, layers flavor compounds in ways that make your best previous batches taste like prototypes.\nThe product becomes something else entirely. People start talking. Your regulars are telling other people. Demand is building quietly, steadily. For the first time since the raid, it feels like something real is happening.\nThen comes the cooking session that changes everything.`,
         choice: ['Begin the cooking session'],
         idsForChoices: ['minigameCooking'],
-        pictureForScene: ""
+        pictureForScene: "/scenes/wilAcept-scene.png"
     },
 
     minigameCooking: {
         text: `[MINIGAME: CANDY COOK] William walks you through the process, temperature windows, timing, the exact moment to pull from heat. Your decisions here affect the batch quality and your reputation score. Produce a perfect batch and the next chapter opens with high credibility. Rush it or misjudge, and you'll have to rebuild trust.\nAfter the session, you box up your best batch yet and put it out into the market.`,
         choice: ['Ship the batch and wait for results'],
         idsForChoices: ['dealerApproach'],
-        pictureForScene: "",
+        pictureForScene: "/scenes/miniCook-scene.png",
         minigame: 'miniGame1'
         
     },
@@ -167,7 +167,7 @@ export const story = {
         text: `Word spreads fast. Three days after your best batch hits the streets, a man shows up at your location. He didn't knock, he was just suddenly inside, sitting in a chair, eating one of your pop rocks with the practiced calm of someone used to being the most dangerous person in any room.\nHis name is Cord. He's a distributor with reach you can't imagine, he mentions Agartha, an underground mass production facility outside the city. He wants you and William. He wants your product at industrial scale. He slides a paper across the table with a number on it.\nThe number is enormous.`,
         choice: ['Reject Cord\'s offer', 'Accept Cord\'s offer', 'Try to negotiate terms'],
         idsForChoices: ['dealerReject', 'dealerAccept', 'dealerNegotiate'],
-        pictureForScene: ""
+        pictureForScene: "/scenes/dealerApp.png"
     },
 
 
@@ -175,7 +175,7 @@ export const story = {
         text: `You try to negotiate. You lay out your terms, you keep the recipe proprietary, you maintain creative control over quality, you want a percentage rather than a flat wage. Cord listens. He's almost amused.\nThen he leans forward. "This isn't a negotiation. I'm here out of courtesy. I could take what I need from you without this conversation." He lets that sit in the air for exactly three seconds. "My offer stands. Take it or don't. But understand that 'don't' has consequences."`,
         choice: ['Persist with your terms', 'Back down anf accept his offer', 'Reject outright'],
         idsForChoices: ['dealerPersist', 'dealerAccept', 'dealerReject'],
-        pictureForScene: ""
+        pictureForScene: "/scenes/dealer-neg.png"
     },
 
 
@@ -183,7 +183,7 @@ export const story = {
         text: `You hold your ground. Cord's expression doesn't change — which is somehow worse than if it had. He stands, straightens his jacket, and says quietly: "I'll give you 24 hours to reconsider. If I don't hear from you, we'll have a different conversation. One you won't enjoy."\nHe leaves. The room feels smaller after he's gone. William is staring at the table.`,
         choice: ['Keep refusing, call his bluff', 'Cave and accept his offer'],
         idsForChoices: ['dealerDeathWarning', 'dealerAccept'],
-        pictureForScene: ""
+        pictureForScene: "/scenes/dealerApp.png"
     },
 
 
@@ -191,7 +191,7 @@ export const story = {
         text: `24 hours pass. Then 48. Cord doesn't come back — but someone else does. Two men who don't introduce themselves sit outside your location in a car all night. In the morning, you find one of your supply bags slashed open on the doorstep. It's not subtle. It's a message.\nWilliam grabs your arm. "This isn't worth dying over. Either we work with this man, or we disappear. There is no third option from him."`,
         choice: ['Accept Cord\'s offer under duress', 'Disappear, cut and run'],
         idsForChoices: ['dealerAccept', 'escapeEarly'],
-        pictureForScene: ""
+        pictureForScene: "/scenes/dealer-warn1.png"
     },
 
 
@@ -199,7 +199,7 @@ export const story = {
         text: `You and William pack everything that night. New phones, new location, a town two hours north. You've made enough to survive for a few months if you're careful. Cord will eventually stop looking — or he won't, but at least you'll be harder to find.\nYou've escaped the dealer. But the SGA is still out there, and you've left the Los Angeles market entirely. Starting over from scratch — again.`,
         choice: ['Rebuild from the new location'],
         idsForChoices: ['escapeEnding'],
-        pictureForScene: ""
+        pictureForScene: "/scenes/escape-early1.png"
     },
 
 
@@ -207,7 +207,7 @@ export const story = {
         text: `You tell Cord no. He doesn't argue. He just stands, straightens his jacket, and walks out. The silence after the door closes is suffocating.\nThree days later, things start going wrong. Your distribution spots get hit by unknown competitors. An ingredient supplier cuts you off without explanation. Someone has been talking about your location online. Cord is applying pressure without showing his face.\nWilliam sits across from you with tired eyes. "We can't sustain this indefinitely. We either find a way forward or we get buried."`,
         choice: ['Reach out to Cord and accept his terms after all', 'Find a different backer', 'Go it alone and fight the pressure'],
         idsForChoices: ['dealerAccept', 'altBacker', 'soloResistance'],
-        pictureForScene: ""
+        pictureForScene: "/scenes/dealer-rej1.png"
     },
 
 
@@ -215,7 +215,7 @@ export const story = {
         text: `Through William's old culinary contacts, you find a smaller backer — a woman named Eloise who runs a legitimate catering supply company as a front. She can't offer Cord-level scale, but she offers something better: stability, discretion, and a clean cut of profits. No threats. No Agartha.\nThe operation grows slowly. But it grows clean.`,
         choice: ['Accept Eloise\'s backing and scale up carefully'],
         idsForChoices: ['productionChoice'],
-        pictureForScene: ""
+        pictureForScene: "/scenes/alt-backer1.png"
     },
 
 
@@ -223,7 +223,7 @@ export const story = {
         text: `You dig in. You move locations again, tighten your circle to just you and William, and rebuild your distribution through word of mouth only. It's slower. Harder. But you're not owned by anyone.\nCord eventually moves on to easier targets. The pressure lifts after three brutal weeks. You've survived — and you've proven something to yourself. But the experience has cost you time, money, and nerves.`,
         choice: ['Continue building the operation your way'],
         idsForChoices: ['productionChoice'],
-        pictureForScene: ""
+        pictureForScene: "/scenes/solo-res.png"
     },
 
 
@@ -231,7 +231,7 @@ export const story = {
         text: `You agree to Cord's terms. He doesn't celebrate — he just nods and pulls out a phone to make a call. Within a week, your operation has been relocated. You and William are producing at a scale you've never seen. The money is real. The risk is also very real.\nCord runs a tight ship. He sets production targets. He controls distribution. You and William are the engine — skilled, essential, and not entirely free.\nThe question now is how you run this engine.`,
         choice: ['Begin the production phase'],
         idsForChoices: ['productionChoice'],
-        pictureForScene: ""
+        pictureForScene: "/scenes/dealer-acc.png"
     },
 
 
@@ -239,7 +239,7 @@ export const story = {
         text: `The operation is running. You and William stand over the production setup every night, making decisions that affect everything downstream. Cord has given you latitude on one thing: pace. You can run this conservatively — smaller batches, lower profile, lower profits — or you can push hard, maximize output, and make serious money fast.\nWilliam looks at you. "How do you want to play this?"`,
         choice: ['Slow N Steady, low risk, lower income', 'Fast and Furious, high risk, high risk, high income'],
         idsForChoices: ['slowPath', 'fastPath'],
-        pictureForScene: ""
+        pictureForScene: "/scenes/prod-choice.png"
     },
 
 
